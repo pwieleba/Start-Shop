@@ -1,0 +1,160 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    font-family: -apple-system;
+    background-color: #333;
+    color: white;
+}
+.main-header {
+    background-color: rgb(26, 25, 25);
+}
+a {
+    color: salmon;
+    font-size: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100;
+    background-color: black;
+}
+.nav-header {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+ li {
+    display: inline;
+    float: right;
+    
+    padding: 10px;
+    font-size: 20px;
+    color: salmon;
+ }
+
+ li:hover {
+    color: rgb(116, 75, 230);
+    font-size: 22px;
+    opacity: 0.6;
+    transition: 0.3s;
+ }
+
+ .shop-item {
+    margin:30px;
+ }
+
+ .shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    
+}
+.shop-item-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+}
+
+.section-toys, section-header {
+    margin: 10px;
+}
+
+
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+    
+}
+
+.cart-item {
+    width: 45%;
+}
+span {
+    color: white;
+}
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+.cart-total {
+    float: right;
+
+}
+
+button {
+    background-color:aliceblue;
+    font-size: 16px;
+    border-color: white;
+}
+
+button:hover {
+    background-color: salmon;
+    opacity: 0.6;
+    transition: 0.3s;
+ }
+
+
+
+.btn btn-primary btn-purchase {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
