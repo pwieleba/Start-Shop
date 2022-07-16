@@ -12,11 +12,18 @@ html, body {
 a {
     color: rgb(24 80 83);
     font-size: 27px;
+    font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100;
 }
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
 .nav-header {
     display: flex;
     justify-content: center;
@@ -82,12 +89,6 @@ img {
     width: 250px;
 }
 
-.section-toys, section-header {
-    margin: 10px;
-}
-
-
-
 .cart-header {
     font-weight: bold;
     font-size: 1.25em;
@@ -112,7 +113,7 @@ img {
     width: 45%;
 }
 span {
-    color: white;
+    color: black;
 }
 .cart-price {
     width: 20%;
@@ -137,6 +138,7 @@ span {
 }
 .cart-total {
     float: right;
+    font-size: 19px;
 
 }
 
@@ -160,15 +162,23 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100px;
+    width: 100px;
 }
-
-h1 {
-    display: flex;
-    justify-content: center;
-}
-
 
 section {
     color: rgb(85, 85, 236);
 }
 
+.section-toys, section-header {
+    margin: 10px;
+}
+
+.section-toys {
+    font-weight: bold;
+}
+
+.container content-section {
+    margin: 10px;
+    padding: 10px;
+}
